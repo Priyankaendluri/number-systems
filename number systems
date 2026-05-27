@@ -1,0 +1,6 @@
+module number_converter(
+  input  [7:0] num_in,
+  output [7:0] out
+);
+  assign out = num_in;
+endmodule
